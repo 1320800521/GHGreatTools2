@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C86D0092046ACFC00378522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86D0082046ACFC00378522 /* AppDelegate.m */; };
+		6C86D00C2046ACFC00378522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86D00B2046ACFC00378522 /* ViewController.m */; };
+		6C86D00E2046ACFC00378522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C86D00D2046ACFC00378522 /* Assets.xcassets */; };
+		6C86D0112046ACFC00378522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C86D00F2046ACFC00378522 /* Main.storyboard */; };
+		6C86D0142046ACFC00378522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86D0132046ACFC00378522 /* main.m */; };
+		6C86D01F2046ACFC00378522 /* GHGreatToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86D01E2046ACFC00378522 /* GHGreatToolsTests.m */; };
+		6C86D02A2046ACFC00378522 /* GHGreatToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86D0292046ACFC00378522 /* GHGreatToolsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C86D01B2046ACFC00378522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C86CFFC2046ACFC00378522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C86D0032046ACFC00378522;
+			remoteInfo = GHGreatTools;
+		};
+		6C86D0262046ACFC00378522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C86CFFC2046ACFC00378522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C86D0032046ACFC00378522;
+			remoteInfo = GHGreatTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C86D0042046ACFC00378522 /* GHGreatTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHGreatTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C86D0072046ACFC00378522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C86D0082046ACFC00378522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C86D00A2046ACFC00378522 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C86D00B2046ACFC00378522 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C86D00D2046ACFC00378522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C86D0102046ACFC00378522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C86D0122046ACFC00378522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C86D0132046ACFC00378522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C86D0152046ACFC00378522 /* GHGreatTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GHGreatTools.entitlements; sourceTree = "<group>"; };
+		6C86D01A2046ACFC00378522 /* GHGreatToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHGreatToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C86D01E2046ACFC00378522 /* GHGreatToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHGreatToolsTests.m; sourceTree = "<group>"; };
+		6C86D0202046ACFC00378522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C86D0252046ACFC00378522 /* GHGreatToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHGreatToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C86D0292046ACFC00378522 /* GHGreatToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHGreatToolsUITests.m; sourceTree = "<group>"; };
+		6C86D02B2046ACFC00378522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C86D0012046ACFC00378522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C86D0172046ACFC00378522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C86D0222046ACFC00378522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C86CFFB2046ACFC00378522 = {
+			isa = PBXGroup;
+			children = (
+				6C86D0062046ACFC00378522 /* GHGreatTools */,
+				6C86D01D2046ACFC00378522 /* GHGreatToolsTests */,
+				6C86D0282046ACFC00378522 /* GHGreatToolsUITests */,
+				6C86D0052046ACFC00378522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C86D0052046ACFC00378522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C86D0042046ACFC00378522 /* GHGreatTools.app */,
+				6C86D01A2046ACFC00378522 /* GHGreatToolsTests.xctest */,
+				6C86D0252046ACFC00378522 /* GHGreatToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C86D0062046ACFC00378522 /* GHGreatTools */ = {
+			isa = PBXGroup;
+			children = (
+				6C86D0072046ACFC00378522 /* AppDelegate.h */,
+				6C86D0082046ACFC00378522 /* AppDelegate.m */,
+				6C86D00A2046ACFC00378522 /* ViewController.h */,
+				6C86D00B2046ACFC00378522 /* ViewController.m */,
+				6C86D00D2046ACFC00378522 /* Assets.xcassets */,
+				6C86D00F2046ACFC00378522 /* Main.storyboard */,
+				6C86D0122046ACFC00378522 /* Info.plist */,
+				6C86D0132046ACFC00378522 /* main.m */,
+				6C86D0152046ACFC00378522 /* GHGreatTools.entitlements */,
+			);
+			path = GHGreatTools;
+			sourceTree = "<group>";
+		};
+		6C86D01D2046ACFC00378522 /* GHGreatToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C86D01E2046ACFC00378522 /* GHGreatToolsTests.m */,
+				6C86D0202046ACFC00378522 /* Info.plist */,
+			);
+			path = GHGreatToolsTests;
+			sourceTree = "<group>";
+		};
+		6C86D0282046ACFC00378522 /* GHGreatToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C86D0292046ACFC00378522 /* GHGreatToolsUITests.m */,
+				6C86D02B2046ACFC00378522 /* Info.plist */,
+			);
+			path = GHGreatToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C86D0032046ACFC00378522 /* GHGreatTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C86D02E2046ACFC00378522 /* Build configuration list for PBXNativeTarget "GHGreatTools" */;
+			buildPhases = (
+				6C86D0002046ACFC00378522 /* Sources */,
+				6C86D0012046ACFC00378522 /* Frameworks */,
+				6C86D0022046ACFC00378522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHGreatTools;
+			productName = GHGreatTools;
+			productReference = 6C86D0042046ACFC00378522 /* GHGreatTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C86D0192046ACFC00378522 /* GHGreatToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C86D0312046ACFC00378522 /* Build configuration list for PBXNativeTarget "GHGreatToolsTests" */;
+			buildPhases = (
+				6C86D0162046ACFC00378522 /* Sources */,
+				6C86D0172046ACFC00378522 /* Frameworks */,
+				6C86D0182046ACFC00378522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C86D01C2046ACFC00378522 /* PBXTargetDependency */,
+			);
+			name = GHGreatToolsTests;
+			productName = GHGreatToolsTests;
+			productReference = 6C86D01A2046ACFC00378522 /* GHGreatToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C86D0242046ACFC00378522 /* GHGreatToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C86D0342046ACFC00378522 /* Build configuration list for PBXNativeTarget "GHGreatToolsUITests" */;
+			buildPhases = (
+				6C86D0212046ACFC00378522 /* Sources */,
+				6C86D0222046ACFC00378522 /* Frameworks */,
+				6C86D0232046ACFC00378522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C86D0272046ACFC00378522 /* PBXTargetDependency */,
+			);
+			name = GHGreatToolsUITests;
+			productName = GHGreatToolsUITests;
+			productReference = 6C86D0252046ACFC00378522 /* GHGreatToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C86CFFC2046ACFC00378522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ApesStudio;
+				TargetAttributes = {
+					6C86D0032046ACFC00378522 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6C86D0192046ACFC00378522 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C86D0032046ACFC00378522;
+					};
+					6C86D0242046ACFC00378522 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C86D0032046ACFC00378522;
+					};
+				};
+			};
+			buildConfigurationList = 6C86CFFF2046ACFC00378522 /* Build configuration list for PBXProject "GHGreatTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C86CFFB2046ACFC00378522;
+			productRefGroup = 6C86D0052046ACFC00378522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C86D0032046ACFC00378522 /* GHGreatTools */,
+				6C86D0192046ACFC00378522 /* GHGreatToolsTests */,
+				6C86D0242046ACFC00378522 /* GHGreatToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C86D0022046ACFC00378522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C86D00E2046ACFC00378522 /* Assets.xcassets in Resources */,
+				6C86D0112046ACFC00378522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C86D0182046ACFC00378522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C86D0232046ACFC00378522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C86D0002046ACFC00378522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C86D00C2046ACFC00378522 /* ViewController.m in Sources */,
+				6C86D0142046ACFC00378522 /* main.m in Sources */,
+				6C86D0092046ACFC00378522 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C86D0162046ACFC00378522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C86D01F2046ACFC00378522 /* GHGreatToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C86D0212046ACFC00378522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C86D02A2046ACFC00378522 /* GHGreatToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C86D01C2046ACFC00378522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C86D0032046ACFC00378522 /* GHGreatTools */;
+			targetProxy = 6C86D01B2046ACFC00378522 /* PBXContainerItemProxy */;
+		};
+		6C86D0272046ACFC00378522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C86D0032046ACFC00378522 /* GHGreatTools */;
+			targetProxy = 6C86D0262046ACFC00378522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C86D00F2046ACFC00378522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C86D0102046ACFC00378522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C86D02C2046ACFC00378522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6C86D02D2046ACFC00378522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C86D02F2046ACFC00378522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GHGreatTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.GHGreatTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C86D0302046ACFC00378522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GHGreatTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.GHGreatTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C86D0322046ACFC00378522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GHGreatToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.GHGreatToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHGreatTools.app/Contents/MacOS/GHGreatTools";
+			};
+			name = Debug;
+		};
+		6C86D0332046ACFC00378522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GHGreatToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.GHGreatToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHGreatTools.app/Contents/MacOS/GHGreatTools";
+			};
+			name = Release;
+		};
+		6C86D0352046ACFC00378522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GHGreatToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.GHGreatToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GHGreatTools;
+			};
+			name = Debug;
+		};
+		6C86D0362046ACFC00378522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GHGreatToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.GHGreatToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GHGreatTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C86CFFF2046ACFC00378522 /* Build configuration list for PBXProject "GHGreatTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C86D02C2046ACFC00378522 /* Debug */,
+				6C86D02D2046ACFC00378522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C86D02E2046ACFC00378522 /* Build configuration list for PBXNativeTarget "GHGreatTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C86D02F2046ACFC00378522 /* Debug */,
+				6C86D0302046ACFC00378522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C86D0312046ACFC00378522 /* Build configuration list for PBXNativeTarget "GHGreatToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C86D0322046ACFC00378522 /* Debug */,
+				6C86D0332046ACFC00378522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C86D0342046ACFC00378522 /* Build configuration list for PBXNativeTarget "GHGreatToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C86D0352046ACFC00378522 /* Debug */,
+				6C86D0362046ACFC00378522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C86CFFC2046ACFC00378522 /* Project object */;
+}

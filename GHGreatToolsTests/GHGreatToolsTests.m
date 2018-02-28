@@ -1,18 +1,18 @@
 //
-//  TestTests.m
-//  TestTests
+//  GHGreatToolsTests.m
+//  GHGreatToolsTests
 //
-//  Created by 51Talk_zhaoguanghui on 2018/1/11.
+//  Created by 51Talk_zhaoguanghui on 2018/2/28.
 //  Copyright © 2018年 ApesStudio. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface TestTests : XCTestCase
+@interface GHGreatToolsTests : XCTestCase
 
 @end
 
-@implementation TestTests
+@implementation GHGreatToolsTests
 
 - (void)setUp {
     [super setUp];
